@@ -1,0 +1,52 @@
+body{
+    background-color: darksalmon;
+}
+
+.heading-1{
+   
+    color: maroon;
+}
+.input{
+    font-style: italic;
+    font-family: cursive;
+    font-size: medium;
+    background: linen;
+}
+.button{
+    font-style: italic;
+    font-family: cursive;
+    font-size: medium;
+    background-color: lightsalmon;
+    color: maroon;
+    font-weight: bold;
+}
+
+.main{
+    margin-left: 40%;
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+input:focus{
+    outline: none;
+}
+
+.material-symbols-outlined {
+    font-style: italic;
+    font-weight: bold;
+    font-family: cursive;
+    font-variation-settings: 'FILL' 0, 'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+.checked-todo{
+    text-decoration-line: line-through;
+    text-decoration-color: snow;
+    
+}
+.todo{
+    cursor: pointer;
+    word-wrap: break-word;
+}
