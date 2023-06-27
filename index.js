@@ -6,6 +6,9 @@ let localData = JSON.parse(localStorage.getItem('todo'));
 let todoList = localData|| [];
 let showTodo = document.querySelector('.todos-container');
 
+
+renderToDoList(todoList);
+
 function uuid(){
     return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(param){
         let number = Math.random()*16|0;
